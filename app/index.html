@@ -43,13 +43,13 @@ $(function(){
   //var web3 = new Web3();
   //web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 	web3.eth.getBlockNumber(function(error, result){
-		console.log(error)
+		console.log(result)
 	})
-/*	web3.eth.getAccounts(function(err, res) {
+	web3.eth.getAccounts(function(err, res) {
 		console.log(err)
 	  console.log('err: ' + err + ', res: ' + res);
-	});*/
-	//console.log(web3.eth.accounts[0])
+	});
+	console.log(web3.eth.accounts[0])
 
 </script>
 
