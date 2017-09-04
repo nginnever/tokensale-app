@@ -39,7 +39,8 @@ $(function(){
 <!-- progress bar -->
 <script type="text/javascript" src="js/web3.min.js"></script>
 <script type="text/javascript">
-	web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
+web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
+  //web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
   //var web3 = new Web3();
   //web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 	web3.eth.getBlockNumber(function(error, result){
@@ -49,7 +50,7 @@ $(function(){
 		console.log(err)
 	  console.log('err: ' + err + ', res: ' + res);
 	});
-	console.log(web3.eth.accounts[0])
+	//console.log(web3.eth.accounts[0])
 
 </script>
 
