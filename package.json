@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nginnever/tokensale-app/issues"
   },
-  "homepage": "https://github.com/nginnever/tokensale-app#readme"
+  "homepage": "https://github.com/nginnever/tokensale-app#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.18"
+  }
 }
